@@ -2,7 +2,7 @@
 
 Third-party service badges (if available)
 
-[![Build Status](https://semaphoreci.com/api/v1/khuonglh/hongthanhhotel/branches/master/badge.svg)](https://semaphoreci.com/khuonglh/hongthanhhotel)
+[![Build Status](https://semaphoreci.com/api/v1/khuonglh/hongthanhhotel/branches/master/shields_badge.svg)](https://semaphoreci.com/khuonglh/hongthanhhotel)
 [![Test Coverage](https://codeclimate.com/github/khuonglh/hongthanhhotel/badges/coverage.svg)](https://codeclimate.com/github/khuonglh/hongthanhhotel/coverage)
 [![Code Climate](https://codeclimate.com/github/khuonglh/hongthanhhotel/badges/gpa.svg)](https://codeclimate.com/github/khuonglh/hongthanhhotel)
 
