@@ -4,6 +4,9 @@ defaults: &defaults
   min_messages: warning
   timeout: 5000
   pool: <%= [ENV.fetch("MAX_THREADS", 5), ENV.fetch("DB_POOL", 5)].max %>
+  username: <%= ENV['DATABASE_USERNAME'] %>
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+  host: <%= ENV['DATABASE_HOST'] %>
 
 development:
   database: <%= ENV.fetch("DATABASE_NAME", File.basename(Rails.root)) %>_dev
