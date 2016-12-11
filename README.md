@@ -2,9 +2,9 @@
 
 Third-party service badges (if available)
 
-[![Build Status](https://semaphoreapp.com/api/v1/projects/31b68af8b073708a56e4e005bbcba2af4802816d/76140/shields_badge.png)](https://semaphoreapp.com/fs/rails-base)
-[![Test Coverage](https://codeclimate.com/github/fs/rails-base/badges/coverage.svg)](https://codeclimate.com/github/fs/rails-base)
-[![Code Climate](https://codeclimate.com/github/fs/rails-base.png)](https://codeclimate.com/github/fs/rails-base)
+[![Build Status](https://semaphoreci.com/api/v1/khuonglh/hongthanhhotel/branches/master/badge.svg)](https://semaphoreci.com/khuonglh/hongthanhhotel)
+[![Test Coverage](https://codeclimate.com/github/khuonglh/hongthanhhotel/badges/coverage.svg)](https://codeclimate.com/github/khuonglh/hongthanhhotel/coverage)
+[![Code Climate](https://codeclimate.com/github/khuonglh/hongthanhhotel/badges/gpa.svg)](https://codeclimate.com/github/khuonglh/hongthanhhotel)
 
 ## Project description
 
