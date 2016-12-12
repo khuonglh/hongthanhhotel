@@ -1,7 +1,5 @@
 # Hồng Thanh Hotel Management System
 
-Third-party service badges (if available)
-
 [![Build Status](https://semaphoreci.com/api/v1/khuonglh/hongthanhhotel/branches/master/shields_badge.svg)](https://semaphoreci.com/khuonglh/hongthanhhotel)
 [![Test Coverage](https://codeclimate.com/github/khuonglh/hongthanhhotel/badges/coverage.svg)](https://codeclimate.com/github/khuonglh/hongthanhhotel/coverage)
 [![Code Climate](https://codeclimate.com/github/khuonglh/hongthanhhotel/badges/gpa.svg)](https://codeclimate.com/github/khuonglh/hongthanhhotel)
@@ -63,3 +61,20 @@ bin/server
 ## Production
 
 * http://hongthanhhotel-production.herokuapp.com
+
+##Deployment
+
+#Heroku
+
+#Out of the box Rails Base ready to be deployed to Heroku.com.
+
+#Heroku Postgres add-on will be used for database.
+#SendGrid add-on required to be able to send emails.
+#NewRelic add-on could be used to monitor application performance.
+#Rollbar add-on could be used to application errors.
+
+heroku create --addons=heroku-postgresql,sendgrid,newrelic,rollbar --remote staging hongthanhhotel
+heroku config:add HOST="hongthanhhotel.herokuapp.com" MAILER_SENDER_ADDRESS="noreply@hongthanhhotel.herokuapp.com" NEW_RELIC_APP_NAME="hongthanhhotel"
+git push staging master
+heroku run rake db:schema:load
+heroku open
