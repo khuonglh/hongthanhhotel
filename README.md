@@ -64,17 +64,19 @@ bin/server
 
 ##Deployment
 
-#Heroku
+###Heroku
 
-#Out of the box Rails Base ready to be deployed to Heroku.com.
+Out of the box Rails Base ready to be deployed to Heroku.com.
 
-#Heroku Postgres add-on will be used for database.
-#SendGrid add-on required to be able to send emails.
-#NewRelic add-on could be used to monitor application performance.
-#Rollbar add-on could be used to application errors.
+* [Heroku Postgres](https://www.heroku.com/postgres) add-on will be used for database.
+* [SendGrid](https://devcenter.heroku.com/articles/sendgrid#ruby-rails) add-on required to be able to send emails.
+* [NewRelic](https://devcenter.heroku.com/articles/newrelic#ruby-installation-and-configuration) add-on could be used to monitor application performance.
+* [Rollbar](https://elements.heroku.com/addons/rollbar) add-on could be used to application errors.
 
+```bash
 heroku create --addons=heroku-postgresql,sendgrid,newrelic,rollbar --remote staging hongthanhhotel
 heroku config:add HOST="hongthanhhotel.herokuapp.com" MAILER_SENDER_ADDRESS="noreply@hongthanhhotel.herokuapp.com" NEW_RELIC_APP_NAME="hongthanhhotel"
 git push staging master
 heroku run rake db:schema:load
 heroku open
+```
