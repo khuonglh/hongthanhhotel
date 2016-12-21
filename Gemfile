@@ -91,4 +91,5 @@ group :development do
   gem "spring"
   gem "spring-commands-rspec"
   gem "web-console", "~> 2.0"
+  gem "install_theme", "~> 0.8.2"
 end

@@ -156,10 +156,14 @@ GEM
     google-analytics-rails (1.1.0)
     health_check (1.5.1)
       rails (>= 2.3.0)
+    hpricot (0.8.6)
     htmlentities (4.3.4)
     i18n (0.7.0)
     inky-rb (1.3.6.1)
       foundation_emails (~> 2)
+    install_theme (0.8.2)
+      hpricot (>= 0.8.1)
+      rubigen (>= 1.5.2)
     interactor (3.1.0)
     jasmine (2.3.0)
       jasmine-core (~> 2.3)
@@ -291,6 +295,9 @@ GEM
       rspec-mocks (~> 3.4.0)
       rspec-support (~> 3.4.0)
     rspec-support (3.4.1)
+    rubigen (1.5.7)
+      activesupport (>= 2.3.5)
+      i18n
     rubocop (0.40.0)
       parser (>= 2.3.1.0, < 3.0)
       powerpack (~> 0.1)
@@ -419,6 +426,7 @@ DEPENDENCIES
   google-analytics-rails
   health_check
   inky-rb
+  install_theme (~> 0.8.2)
   interactor
   jasmine (> 2.0)
   jasmine-jquery-rails
@@ -467,4 +475,4 @@ RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.12.5
+   1.13.6
