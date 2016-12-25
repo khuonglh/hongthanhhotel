@@ -99,5 +99,5 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   # replace this with your tracker code
-  GA.tracker = ENV["GA_TRACKER"]
+  #GA.tracker = ENV["GA_TRACKER"]
 end
