@@ -62,9 +62,9 @@ bin/server
 
 * http://hongthanhhotel-production.herokuapp.com
 
-##Deployment
+## Deployment
 
-###Heroku
+### Heroku
 
 Out of the box Rails Base ready to be deployed to Heroku.com.
 
